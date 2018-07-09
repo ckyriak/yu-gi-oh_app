@@ -20,6 +20,7 @@ is already used you can change it at package.json at line 6!
 
 
 **About the development process**
+
 This app was implemented using Angular 1.7.2 and Bootstrap 4 as basic frameworks.
 
 The main idea is that a parent-component communicates with a child-component.
