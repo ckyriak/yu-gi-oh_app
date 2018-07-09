@@ -1,13 +1,13 @@
 <div class="row">
 	<div class="col-md-3 scroll-area border border-primary">
-  		<ul ng-if="$ctrl.list" class="list-group list-group-striped">
-    		<li ng-repeat="card in $ctrl.list" class="list-group-item" ng-class="{active : $ctrl.selectedCardName === card.name}">
-    			<p class="cursor-default"><b> {{card.name}}</b></p>
-      			<button class="btn btn-default btn-info float-right" ng-click="$ctrl.selectCard(card.name)">{{card.card_type}}</button>
-    		</li>
-  		</ul>
- 	</div>
- 	<div class="col-md-9 border border-primary">
- 		<card-detail card="$ctrl.card"></card-detail>
- 	</div>
+		<ul ng-if="$ctrl.list" class="list-group list-group-striped">
+			<li ng-repeat="card in $ctrl.list" class="list-group-item" ng-class="{active : $ctrl.selectedCardName === card.name}">
+				<p class="cursor-default"><b> {{card.name}}</b></p>
+				<button class="btn btn-default btn-info float-right" ng-click="$ctrl.selectCard(card.name)">{{card.card_type}}</button>
+			</li>
+		</ul>
+	</div>
+	<div class="col-md-9 border border-primary">
+		<card-detail card="$ctrl.card"></card-detail>
+	</div>
 </div>
