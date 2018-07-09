@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app="app">
+	<head>
+		<title>Simple Yu-Gi-Oh! Deck Browser</title>
+		<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    	<link rel="stylesheet" href="assets/css/styles.css">
+	</head>
+
+	<body ng-app="app">
+		<div>
+			<div class="container">
+				<list></list>			
+			</div>		
+		</div>
+		
+		<script src="./node_modules/angular/angular.min.js"></script>
+		<script src="src/app.js"></script>
+    	<script src="config.js"></script>
+    	<script src="src/services/httpService.js"></script>
+    	<script src="src/components/list/list.js"></script>
+    	<script src="src/components/card_detail/card_detail.js"></script>
+	</body>
+</html>
