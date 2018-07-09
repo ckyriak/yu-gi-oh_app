@@ -3,6 +3,7 @@
 **Building the app**
 
 (-) You need to have Node installed
+
 (-) Run 'npm install' in root folder to install dependencies that are included at package.json
 
 
