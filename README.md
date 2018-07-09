@@ -33,4 +33,4 @@ In our case, child's request is not necessary because parent can pass to child t
 But, it's a good practice to implement separately a slim-version payload and a full-version payload 
 if we don't need all data in some requests(like these that parent makes). So, i choose to keep this practice here! 
 
-Also, a request to another Api (http://52.57.88.137/api/card_image/{{cardName}}) is made for child's img. 
+Also, a request to another API (http://52.57.88.137/api/card_image/{{cardName}}) is made for child's img. 
