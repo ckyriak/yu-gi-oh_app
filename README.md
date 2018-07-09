@@ -1,4 +1,5 @@
 "# yu-gi-oh_app" 
+
 **Building the app**
 
 (-) You need to have Node installed
