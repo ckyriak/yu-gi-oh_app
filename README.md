@@ -22,7 +22,7 @@ is already used you can change it at package.json at line 6!
 This app was implemented using Angular 1.7.2 and Bootstrap 4 as basic frameworks.
 
 The main idea is that a parent-component communicates with a child-component.
-The parent-component based on the deck-list (card names) initially makes HTTP reuests to an API(http://52.57.88.137/api/card_data/{{cardName}}) 
+The parent-component based on the deck-list (card names) initially makes HTTP requests to an API(http://52.57.88.137/api/card_data/{{cardName}}) 
 using httpService to build the list of cards (with card-name and card-type).
 
 User can see a card's details by clicking the card-type of a card (button).
