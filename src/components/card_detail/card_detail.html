@@ -1,0 +1,15 @@
+<h4 ng-if="!$ctrl.cardDetail.text" class="initial-message cursor-default" class="text-center">{{$ctrl.initialMsg}}</h4>
+
+<h1 class="text-center card-name">{{$ctrl.cardDetail.name}}</h1>
+
+<div class="card-image-container float-left">
+	<img ng-if="$ctrl.isDataAvailable" 
+		ng-src="http://52.57.88.137/api/card_image/{{$ctrl.cardDetail.name}}" 
+		alt="" />
+</div>
+
+<h3 ng-if="$ctrl.cardDetail.text">Description</h3>
+<p>{{$ctrl.cardDetail.text}}</p>
+
+<h3 ng-if="$ctrl.cardDetail.type">Type</h3>
+<p>{{$ctrl.cardDetail.type}}</p>
